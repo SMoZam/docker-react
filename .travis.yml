@@ -11,10 +11,10 @@ script:
 deploy:
   provider: elasticbeanstalk
   region: "us-east-1"
-  name: "docker"
+  name: "travis-e3912d38190828d169c0973be74eed6a14d73f9a-1566413272.zip"
   env: "Docker-env"
   bucket_name: "elasticbeanstalk-us-east-1-229081260233"
-  bucket_path: "docker"
+  bucket_path: "travis-e3912d38190828d169c0973be74eed6a14d73f9a-1566413272.zip"
   on:
     branch: master
   access_key_id: $AWS_ACCESS_KEY
