@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and now it should be working really fine
+          Edit <code>src/App.js</code> and now it should be working really fine in new branch
         </p>
         <a
           className="App-link"
